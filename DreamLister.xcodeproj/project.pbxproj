@@ -80,9 +80,9 @@
 			children = (
 				38ED5D011E8B063A00619977 /* View */,
 				38C775AD1E84C2B300E8EBA9 /* Model */,
+				38C775581E84B61200E8EBA9 /* MainVC.swift */,
 				38C775561E84B61200E8EBA9 /* AppDelegate.swift */,
 				38ED5CFF1E8B060D00619977 /* tesla.jpg */,
-				38C775581E84B61200E8EBA9 /* MainVC.swift */,
 				38C7755A1E84B61200E8EBA9 /* Main.storyboard */,
 				38C775601E84B61200E8EBA9 /* Assets.xcassets */,
 				38C775621E84B61300E8EBA9 /* LaunchScreen.storyboard */,
