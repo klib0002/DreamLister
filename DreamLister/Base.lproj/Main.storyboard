@@ -221,6 +221,9 @@
                                 <state key="normal" title="Save Item">
                                     <color key="titleColor" red="0.84458280460000001" green="0.84458280460000001" blue="0.84458280460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="savePressed:" destination="fNb-Mh-NiP" eventType="touchUpInside" id="e8Y-kg-Jyg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiZ-Tg-Dg2">
                                 <rect key="frame" x="107" y="348" width="161" height="21"/>
@@ -263,6 +266,12 @@
                             <color key="tintColor" red="1" green="0.23341079679999999" blue="0.22467023729999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="detailsField" destination="n6S-jR-hTN" id="xg5-ef-cS5"/>
+                        <outlet property="priceField" destination="FzL-Yc-PYr" id="L9w-bP-qIC"/>
+                        <outlet property="storePicker" destination="0dn-LU-ouK" id="qUe-oQ-pYv"/>
+                        <outlet property="titleField" destination="UCN-lf-HCQ" id="E2b-03-pkv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8HY-89-MX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -273,7 +282,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dtd-ir-VxS" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dDb-R9-z0q">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dDb-R9-z0q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.84458280460000001" green="0.84458280460000001" blue="0.84458280460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
